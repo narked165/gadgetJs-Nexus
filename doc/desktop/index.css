@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", "Tahoma", sans-serif;
+    text-decoration: none;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.app-backdrop {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.app-main {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(29, 5, 58, .95);
+    overflow: hidden !important;
+}
+
+.app-nav {
+    position: absolute;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 25px;
+    width: 100vw;
+    height: 60px;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(140, 120, 173, 0.8);
+    opacity: .5;
+}
+.app-nav-logo {
+    display: grid;
+    position: relative;
+
+}
+
+.app-nav-tagline {
+    display: block;
+    position: relative;
+    text-align:center;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    margin: 0 auto;
+    color: rgba(220, 220, 220, .9);
+    font-size: 1.3em;
+    font-variant: all-petite-caps;
+    font-weight: 600;
+
+}
+
+.app-nav-links li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.app-nav-links {
+    text-align: right;
+}
+.app-nav-links li a {
+    color: rgba(255, 255, 255, 1)
+}
+
+.app-nav-links li a:hover {
+    color: rgba(216, 146, 75, 1)
+}
+.app-nav-link-list {
+    display: inline-block;
+    padding: 25px 12.5px;
+    color: coral;
+
+}
+.app-logo-img {
+    height: 55px;
+    width: auto;
+    margin-top: 5px;
+}
+
+.app-main-desktop {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    width:100vw;
+    height:100vh;
+    position: relative;
+}
+.app-banner-globe {
+    position:absolute;
+    top:60px;
+    left: 0;
+    width: 100vw;
+    height: 30vh;
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+}
+
+@keyframes globeSpin {
+    from {
+       left: -250px;
+
+
+    }
+    to {
+        left: 3000px;
+
+
+    }
+}
+.app-globe {
+    position: absolute;
+    top: 5px;
+    left: 50vw;
+    color: rgba(255,255,0,.7);
+    animation: 30s linear infinite alternate globeSpin;
+    text-align: center;
+    margin-right: 75px;
+    backface-visibility: visible;
+    backdrop-filter: blur(1000px);
+
+
+}
+
+.app-globe :nth-child(1){
+    color: rgba(255,120,0,1);
+
+
+}
+
+.app-globe:nth-child(2){
+    color: rgba(255,255,90,1);
+
+
+}
+
+
+.app-left {
+
+
+}
+
+.app-center {
+
+
+}
+
+.app-right {
+
+
+}
+
+.app-info-slide {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right; 0;
+    top: 69vh;
+    height: 30vh;
+    width: 100vw;
+    background-color: rgba(200, 200, 255, 0.75);
+    border-top: 5px double rgba(200, 200, 255, 1);
+}
+
+.app-go {
+    position: relative;
+    top:5vh;
+    left: 50vw;
+    padding: 1.5% 3%;
+    border-top: outset 2px rgba(0, 55, 55, 0.6);
+    border-left: outset 1px rgba(0, 55, 55, 0.4);
+    border-bottom: outset 4px rgba(0, 55, 55, 0.5);
+    border-right: outset 4.5px rgba(0, 55, 55, .7);
+    background-color: rgba(235, 255, 255, 0.8);
+    display: inline-block;
+
+}
+.app-go span h6 {
+    padding-right: 15pt;
+    color: rgba(0, 55, 55, 1);
+    font-variant: titling-caps;
+    font-size: 18pt;
+    float: left;
+}
+.app-go span i {
+    color: rgba(0, 55, 55, 1);
+    font-size: 22pt;
+    float: right;
+}
+
+
+.app-go:hover {
+    border-top: outset 1px rgba(0, 55, 55, 0.9);
+    border-left outset 1px rgba(0, 55, 55, 0.9);
+    border-bottom: outset 1px rgba(0, 55, 55, 0.9);
+    border-right: outset 1.5px rgba(0, 55, 55, 1);
+    background-color: rgba(235 ,255, 255, 1);
+    color: rgba(100, 155, 155, 0.7)
+    transiton: 900ms ease-in-out;
+
+}
+
+.app-go:active, .hlbtn i:active {
+
+}
