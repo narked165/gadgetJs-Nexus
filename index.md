@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# “I could only achieve success in my life through self-discipline, and I applied it until my wish and my will became one.” 
+### – Nikola Tesla
 
-You can use the [editor on GitHub](https://github.com/narked165/gadgetJs-Nexus/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+## Welcome to GadgetJs
+###
+Gadgets are a Vanilla Node/ Vanilla JavaScript Discipline, for creating responsive, scalable Web SPA's for consumers looking to duck the dependancy overload of, the modern, monolythic framework.  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/narked165/gadgetJs-Nexus/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+By creating dependancy free web-components, compact, consise HTML can be be rendered to the screen agnostically, reducing the requiremets for large scale templating engines and network intensive polling and browser interpolation.  JavaScript is one of the fastest, most powefull, languages in the world and with the advent of NodeJS and TypeScript, JavaScript has taken on new roles and features, with suprising indiference to speed and flexibility.  
+### 
